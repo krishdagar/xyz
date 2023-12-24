@@ -1,0 +1,27 @@
+/* Target screens smaller than 600px wide */
+@media only screen and (max-width: 600px) {
+
+  body {
+    font-size: 18px; /* Slightly larger font for better readability */
+  }
+
+  .container {
+    width: 100%; /* Take full width of the screen */
+    margin: 20px auto; /* Reduce top and bottom margin */
+  }
+
+  .wish img,
+  .cat img,
+  .hugs img {
+    width: 100%;
+    border-radius: 10px; /* Slightly smaller rounded corners */
+    margin-bottom: 15px; /* Reduce space between images */
+  }
+
+  h1, h2 {
+    font-size: 28px; /* Adjust heading sizes for smaller screens */
+  }
+
+  /* Add any other necessary adjustments for smaller screens here */
+
+}
